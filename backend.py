@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 # ВСТАВЬТЕ ВАШ КЛЮЧ:
-openai.api_key = "sk-proj-ваш_ключ_сюда"
+openai.api_key = ""
 
 @app.post("/analyze")
 async def analyze(file: UploadFile = File(...)):
