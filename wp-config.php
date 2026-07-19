@@ -20,6 +20,10 @@ define('LOGGED_IN_SALT',   '},$MS(!{K|%F%MjgDqI[/-Bz}%?9No.8DugghPq-H@,_4|9%|Ei=
 define('NONCE_SALT',       'ixV7MZut-I$As1B1-FsNbc;|;z~%%W-g8f;:QtZ;NaR1m9XwRyz_#qNm4%P=pAr)');
 
 $table_prefix = 'wp_';
+// Включение режима отладки
+define('WP_DEBUG', true);
+define('WP_DEBUG_DISPLAY', true);
+define('WP_DEBUG_LOG', true);
 
 // Отключить автоматические обновления (опционально)
 define('WP_AUTO_UPDATE_CORE', false);
